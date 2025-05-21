@@ -13,7 +13,7 @@ export const isEndingSoon = (task: TaskType): boolean => {
     const now = new Date();
     const end = new Date(task.endDate);
     const diff = end.getTime() - now.getTime();
-    return !task.completed && diff <= 2 * 86400000 && diff >= 0; // moins de 2 jours ( 2 * 86 400 000 ms par jour )
+    return !task.completed && diff <= 2 * 86400000 && diff >= 0; // moins de 2 jours (2 * 86 400 000 ms par jour)
 };
 
 export const getProgress = (tasks: TaskType[]) => {
