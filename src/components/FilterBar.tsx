@@ -13,13 +13,13 @@ import {
 import {FilterBarType} from "../types/types";
 
 const FilterBar: FC<FilterBarType> = ({
-                                           statusFilter,
-                                           onStatusChange,
-                                           searchTerm,
-                                           onSearchChange,
-                                           sort,
-                                           onSortChange,
-                                       }) => {
+                                          statusFilter,
+                                          onStatusChange,
+                                          searchTerm,
+                                          onSearchChange,
+                                          sort,
+                                          onSortChange,
+                                      }) => {
 
     const handleStatusChange = (
         _event: React.MouseEvent<HTMLElement>,

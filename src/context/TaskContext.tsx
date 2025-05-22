@@ -1,7 +1,6 @@
-import {createContext, useContext, FC} from 'react';
-import {TaskType} from "../types/types";
+import {createContext, FC, useContext} from 'react';
+import {TaskContextType, TaskType} from "../types/types";
 import {useLocalStorage} from '../hooks/useLocalStorage';
-import {TaskContextType} from "../types/types";
 import {useToast} from "./ToastContext";
 
 const TaskContext = createContext<TaskContextType | undefined>(undefined);

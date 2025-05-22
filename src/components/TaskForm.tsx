@@ -96,7 +96,6 @@ const TaskForm: FC<TaskFormType> = ({onAdd}) => {
                             format="dd/MM/yyyy HH:mm"
                         />
                     </LocalizationProvider>
-
                     <Box>
                         <FormLabel>Priorité :</FormLabel>
                         <RadioGroup
