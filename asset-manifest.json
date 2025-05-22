@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/Oppgaveleder/static/css/main.d7527704.css",
+    "main.js": "/Oppgaveleder/static/js/main.971f4cd2.js",
+    "index.html": "/Oppgaveleder/index.html",
+    "main.d7527704.css.map": "/Oppgaveleder/static/css/main.d7527704.css.map",
+    "main.971f4cd2.js.map": "/Oppgaveleder/static/js/main.971f4cd2.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.d7527704.css",
+    "static/js/main.971f4cd2.js"
+  ]
+}
