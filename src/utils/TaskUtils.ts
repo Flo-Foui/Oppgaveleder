@@ -20,8 +20,7 @@ export const getProgress = (tasks: TaskType[]) => {
     const completed = tasks.filter((t) => t.completed).length;
     return {
         total: tasks.length,
-        completed,
-        percent: tasks.length === 0 ? 0 : Math.round((completed / tasks.length) * 100),
+        completed
     };
 };
 

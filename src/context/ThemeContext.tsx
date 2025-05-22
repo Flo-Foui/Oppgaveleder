@@ -1,8 +1,8 @@
-import {ReactNode, useMemo} from 'react';
+import {useMemo} from 'react';
 import {createTheme, CssBaseline, ThemeProvider as MUIThemeProvider} from '@mui/material';
 
 
-export const ThemeProvider = ({children}: { children: ReactNode }) => {
+export const ThemeProvider = ({children}: { children: any }) => {
     const theme = useMemo(
         () =>
             createTheme({
